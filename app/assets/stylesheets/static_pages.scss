@@ -1,7 +1,24 @@
-// Place all the styles related to the static_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
 
-<%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+h1 {	
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	color: #BDC3C7; 
+  font-size: 50px;
+  text-align: center;}
 
-<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+h2 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	color: red; 
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	color: black; 
+  font-size: 30px;
+  text-align: center;
+}
+
+.image {
+	text-align:center;
+}
